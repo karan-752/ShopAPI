@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 // Connect to MongoDB using Mongoose
-mongoose.connect('mongodb+srv://karangupta752:' + process.env.MONGO_ATLAS_PW + '@project0.gn3mtda.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://<LOG_IN>:' + process.env.MONGO_ATLAS_PW + '@project0.gn3mtda.mongodb.net/?retryWrites=true&w=majority');
 
 // Logging calls
 app.use(morgan('dev'));
